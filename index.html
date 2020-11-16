@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Soundboard</title>
 </head>
 <body>
-	<div class="soundboard-container">
-		<div class="soundboard">
-			<button data-sound="Sounds/laser.wav">Laser</button>
-		</div>
-	</div>
+    <audio id="audio"></audio>
+    <button onclick="play('Sounds/laser.wav')">Laser</button>
+
+    <button onclick="play('Sounds/gong.wav')">Gong</button>
+    <button onclick="stopAudio()">Stop</button>
+ 
+
 </body>
 </html>
