@@ -1,17 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soundboard</title>
-</head>
-<body>
-    <audio id="audio"></audio>
-    <button onclick="play('Sounds/laser.wav')">Laser</button>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-    <button onclick="play('Sounds/gong.wav')">Gong</button>
-    <button onclick="stopAudio()">Stop</button>
- 
-
-</body>
+  <body>
+    <h1>Max Wittner's Sound Board</h1>
+    <div class="buttons">
+        <button value="sound" onmouseover= "select.play()" onclick="applause.play()">Applause</button>
+        <button value="sound" onmouseover= "select.play()" onclick="blip.play()">Blip</button>
+        <button value="sound" onmouseover= "select.play()" onclick="bomb.play()">Bomb</button>
+        <button value="sound" onmouseover= "select.play()" onclick="cash.play()">Cash</button>
+        <button value="sound" onmouseover= "select.play()" onclick="gong.play()">Gong</button>
+        <button value="sound" onmouseover= "select.play()" onclick="kick.play()">Kick Drum</button>
+        <button value="sound" onmouseover= "select.play()" onclick="laser.play()">Laser</button>
+        <button value="sound" onmouseover= "select.play()" onclick="motorcycle.play()">Motorcycle</button>
+        <button value="sound" onmouseover= "select.play()" onclick="slidewhistle.play()">Slide Whistle</button>
+        <button value="sound" onmouseover= "select.play()" onclick="truckhorn.play()">Truck Horn</button>
+        <button value="sound" onmouseover= "select.play()" onclick="ufo.play()">UFO</button>
+        <button value="sound" onmouseover= "select.play()" onclick="whah.play()">Whah Whah</button>
+    </div>
+  <script src="soundboard.js"></script>
+  </body>
 </html>
