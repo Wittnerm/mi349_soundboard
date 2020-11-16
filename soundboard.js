@@ -1,11 +1,11 @@
-var horse = new buzz.sound("http://www.w3schools.com/html/horse", {
+var laser = new buzz.sound("Sounds/laser.wav", {
 	formats: ['mp3', 'ogg', 'wav'],
     preload: true, // Preload when you can.
     loop: false
 });
 
 var sounds = {
-	"horse": horse
+	"laser.wav": laser
 };
 
 function onButtonClick(event) {
