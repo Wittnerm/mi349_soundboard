@@ -1,9 +1,13 @@
-function play(sound){
-    var audio = document.getElementById("audio");
-     audio.setAttribute('src', sound);
-    audio.play();
- }
- function stopAudio(){
-    var audio = document.getElementById("audio");
-    audio.pause();
- }
+var select = new Audio('Sounds/select.wav')
+var applause = new Audio('Sounds/applause.wav')
+var blip = new Audio('Sounds/blip.wav')
+var bomb = new Audio('Sounds/bomb.wav')
+var cash = new Audio('Sounds/cash.wav')
+var gong = new Audio('Sounds/gong.wav')
+var kick = new Audio('Sounds/kick.wav')
+var laser = new Audio('Sounds/laser.wav')
+var motorcycle = new Audio('Sounds/motorcycle.wav')
+var select = new Audio('Sounds/select.wav')
+var slidewhistle = new Audio('Sounds/slidewhistle.wav')
+var ufo = new Audio('Sounds/ufo.wav')
+var whah = new Audio('Sounds/whah.wav')
